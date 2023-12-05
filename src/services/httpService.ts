@@ -4,7 +4,7 @@ axios.interceptors.request.use(
     function (config) {
 
         config.headers.Authorization = `Bearer ${sessionStorage.getItem('token')}`
-        config.baseURL = `http://localhost:3000/api`
+        config.baseURL = `https://task-test-back.onrender.com/api`
         return config
     },
     function (error) {
