@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# Task test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CONTENIDO DE ESTE ARCHIVO
+---------------------
 
-Currently, two official plugins are available:
+ * Introducción
+ * Instalación
+ * Iniciar el proyecto
+ * Deploy URL (ingresar a la web app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+INTRODUCCIÓN
+------------
 
-- Configure the top-level `parserOptions` property like this:
+En este proyecto se desarrolló una aplicación web para una prueba técnica. Para lograr un desarrollo rápido, se utilizó Vite + React + TypeScript + Tailwind CSS. Inicialmente, se crearon los componentes solicitados siguiendo el enfoque de diseño mobile first, lo que facilitó la implementación de un diseño responsivo, para ello, se hizo uso del framework de estilos Tailwind CSS.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+INSTALACIÓN
+------------
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Para iniciar el proyecto es necesario contar con la instalación de las siguientes tecnologías en nuestro equipo
+
+
+* Node.JS 
+
+  * Versión: v16.16.3 (o superior)
+  * Instalación: https://nodejs.org/es/download/
+
+* NPM 
+
+  * Versión: v8.14.5 (o superior)
+  * Instalación: Se instala junto con Node.js
+
+
+INICIAR PROYECTO
+-----------------
+En la consola ejecutar los siguientes comandos:
+
+   * git clone https://github.com/FelipeLL/tasks-react.git
+   * cd /project-name
+   * npm install
+   * npm run dev
+
+ 
+ DEPLOY URL
+----------------
+
+**URL :** https://task-
+
+
