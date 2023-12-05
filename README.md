@@ -45,6 +45,6 @@ En la consola ejecutar los siguientes comandos:
  DEPLOY URL
 ----------------
 
-**URL :** https://task-react-test.netlify.app/)
+**URL :** https://task-react-test.netlify.app/
 
 
